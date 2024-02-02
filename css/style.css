@@ -1,0 +1,1306 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+
+
+/*===============Topbar Css Start=================*/
+
+section.top-bar {
+    background-color: #000;
+}
+
+.left-topbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.left-topbar-item p {
+    margin-bottom: 0;
+    padding: 16px 50px 16px 0;
+    color: #fff;
+    letter-spacing: 0.6px;
+}
+
+.left-topbar-item p i {
+    color: #fff;
+}
+
+.right-topbar-item {
+    float: right;
+}
+
+ul.top-social-media-icon {
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+    padding: 0;
+    justify-content: end;
+}
+
+ul.top-social-media-icon li a {
+    font-size: 15px;
+    color: #F38726;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    margin: 4px;
+    border-radius: 50px;
+    line-height: 33px;
+    transition: .5s;
+}
+
+ul.top-social-media-icon li a:hover {
+    color: #fff;
+    background-color: #F38726;
+}
+
+/*===============Topbar Css End=================*/
+
+
+/*===============Navbar Css Start=================*/
+
+a.navbar-brand {
+    max-width: 120px;
+}
+
+header.navbar-area nav.navbar.navbar-expand-lg .collapse.navbar-collapse {
+    justify-content: end;
+}
+
+header.navbar-area nav.navbar.navbar-expand-lg {
+    box-shadow: none;
+    padding: 0;
+}
+
+header.navbar-area nav.navbar.navbar-expand-lg .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: capitalize;
+    letter-spacing: 0.6px;
+    transition: .5s;
+    padding: 0 12px;
+}
+
+header.navbar-area nav.navbar.navbar-expand-lg .collapse.navbar-collapse ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #F38726;
+}
+
+.navbar-area {
+    transition: background-color 0.3s ease;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/*===============Navbar Css End=================*/
+
+
+/*===============Banner area Css Start=================*/
+
+.carousel-item img {
+    height: 475px;
+    object-fit: cover;
+    position: relative;
+}
+
+section.banner-area {
+    position: relative;
+}
+
+.banner-content-area {
+    width: 461px;
+    height: 294px;
+    position: absolute;
+    top: 110px;
+    bottom: 152px;
+}
+
+h1.banner-title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'Diphylleia', serif;
+    line-height: 75px;
+    letter-spacing: 0.8px;
+}
+
+.banner-btn {
+    padding: 10px 20px;
+    background-color: #F38726;
+    color: #FFF;
+    border-radius: 10px;
+    font-family: 'Diphylleia', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 0.6px;
+}
+
+.about-area-description a.banner-btn:hover {
+    color: #001a2d;
+}
+
+.banner-btn:hover {
+    background-color: transparent;
+    border: 2px solid #f38725;
+}
+
+.carousel-indicators [data-mdb-target] {
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: .5s;
+    border: 0;
+    opacity: 5;
+    border-radius: 55px;
+}
+
+button.banner-btn-slide {
+    background-color: #fff !important;
+}
+
+button.banner-btn-slide.active {
+    background-color: #f38726 !important;
+}
+
+
+
+/*===============Banner area Css End=================*/
+
+
+/*===============About area Css Start=================*/
+
+.about-area-img img {
+    max-width: 450px;
+}
+
+section.about-area {
+    margin: 80px 0 50px;
+}
+
+.section-title {
+    color: #F38726;
+    font-family: 'Diphylleia', serif;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 18px;
+    position: relative;
+    letter-spacing: 0.6px;
+}
+
+.breadcrumbs-title {
+    color: #000;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 5px;
+    font-family: 'Diphylleia', serif;
+    letter-spacing: 0.8px;
+}
+
+li.breadcrumb-item a {
+    color: #000;
+    font-weight: 600;
+}
+
+.about-area-img {
+    margin-left: 96px;
+}
+
+.section-title::after {
+    content: '';
+    width: 35px;
+    height: 3px;
+    border-radius: 10px;
+    background: #F38726;
+    position: absolute;
+    top: 15px;
+    margin-left: 5px;
+}
+
+h3.about-area-heading {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about-area-description p {
+    color: #616161;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+/*===============About area Css End=================*/
+
+
+/*===============Services area Css Start=================*/
+
+section.services-area {
+    background: #001A2D;
+    padding: 70px 0 0;
+}
+
+.services-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services-heading h3 {
+    color: #FFF;
+    font-family: 'Diphylleia', serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.services-heading h3::before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: -64px;
+    width: 50px;
+    height: 4px;
+    border-radius: 10px;
+    background: #F38726;
+}
+
+.services-heading h3::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: -64px;
+    width: 50px;
+    height: 4px;
+    border-radius: 10px;
+    background: #F38726;
+}
+
+.services-card img {
+    width: 100%;
+    height: 262px;
+    border-radius: 10px;
+    transition: .3s;
+    margin-bottom: 25px;
+}
+
+.services-card img:hover {
+    border: 5px solid #F38726;
+}
+
+.services-card {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.services-content {
+    text-align: center;
+}
+
+
+.services-content h4 {
+    color: #fff;
+    font-family: Diphylleia, serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    letter-spacing: 0.6px;
+    transition: .5s;
+}
+
+.services-content p {
+    color: #fff;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.services-content h4:hover {
+    color: #F38726;
+}
+
+
+/*===============Services area Css End=================*/
+
+
+/*===============Why Choose Us area Css Start=================*/
+
+.first-img img {
+    width: 280px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.why-choose-us-img {
+    display: flex;
+}
+
+.second-img .second-last-img {
+    width: 259px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.second-img .last-car-img {
+    width: 259px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.second-img {
+    margin-left: 27px;
+}
+
+
+.second-img .second-last-img {
+    width: 260px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+
+section.why-choose-us-area {
+    padding: 80px 0 50px;
+}
+
+h3.heading-why-choose-us {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.why-choose-us-content p {
+    color: #616161;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+/*===============Why Choose Us area Css End=================*/
+
+
+/*===============Testimonial area Css Start=================*/
+section.testimonials-area {
+    background: #001A2D;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.testimonial-content {
+    height: 280px;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 70px 12px;
+    margin-bottom: 24px;
+    margin: 0 10px 24px 10px;
+}
+
+.client-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: top;
+    display: inline-block !important;
+}
+
+.testimonial-rating {
+    text-align: center;
+}
+
+.testimonial-rating i {
+    color: #F38726;
+    width: 25px;
+    height: 25px;
+}
+
+.testimonial-text p {
+    text-align: center;
+}
+
+.main-testimonials {
+    width: 350px;
+}
+
+.testimonial-profile {
+    text-align: center;
+}
+
+.client-img {
+    margin-bottom: 24px;
+}
+
+.testimonial-profile h4 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+}
+
+.testimonial-profile h5 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+.testimonial-rating i:nth-child(5) {
+    color: #c5c5c5;
+}
+
+.slick-dots {
+    bottom: -60px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 20px !important;
+    color: #F38726 !important;
+}
+
+
+/*===============Testimonial area Css End=================*/
+
+
+/*===============Book Appointment area Css Start=================*/
+
+h3.book-heading {
+    color: #f38726;
+}
+
+
+section.appointment-area {
+    padding: 80px 0;
+}
+
+input.form-control {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 8px 5px -5px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.select-services {
+    margin-top: 15px;
+}
+
+.select-services select.form-select {
+    outline: none;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    box-shadow: 0px 8px 5px -5px rgba(0, 0, 0, 0.25);
+    height: 50px;
+}
+
+textarea.form-control {
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 8px 5px -5px rgba(0, 0, 0, 0.25);
+    border: none;
+    height: 115px;
+}
+
+button.form-submit {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(243, 135, 38);
+    color: rgb(255, 255, 255);
+    font-family: 'Diphylleia', serif;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+}
+
+.btn-form {
+    text-align: end;
+    margin-top: 30px;
+}
+
+
+/*===============Book Appointment area Css End=================*/
+
+
+/*===============Footer Area area Css Start=================*/
+
+ul.footer-contact-area {
+    padding: 0;
+}
+
+ul.footer-contact-area li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+span.footer-contact-area-icon {
+    color: #fff;
+    padding-right: 10px;
+}
+
+
+span.footer-contact-area-icon i {
+    font-size: 17px;
+}
+
+span.footer-contact-area-text {
+    color: #fff;
+    letter-spacing: 0.6px;
+}
+
+.social-icons-footer {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons-footer li a {
+    width: 35px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 38px;
+    margin: 5px;
+    color: #f38726;
+    display: inline-block;
+    transition: .5s;
+}
+
+.social-icons-footer li a:hover {
+    background-color: #f38726;
+    color: #fff;
+}
+
+
+.tf_footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.tf_footer_details img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.tf_footer_details {
+    text-align: center;
+}
+
+
+.tf_footer_details p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+h3.footer-heading {
+    color: #fff;
+    margin-bottom: 12px;
+    font-family: 'Diphylleia', serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tf_footer_links ul {
+    padding: 0;
+}
+
+.tf_footer_links ul li {
+    padding: 6px 0;
+}
+
+.tf_footer_links ul li a {
+    color: #fff;
+    transition: .5s;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tf_footer_services ul {
+    padding: 0;
+}
+
+.tf_footer_services li {
+    padding: 3px 0;
+}
+
+.tf_footer_services li a {
+    color: #fff;
+    transition: .5s;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.tf_footer_services li a:hover{
+    color: #f38726;
+}
+
+
+section.copyright-area {
+    background: #F38726;
+    padding: 20px 0;
+}
+
+.tf_copyright p {
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+.tf_footer_links ul li a:hover {
+    color: #f38726;
+}
+
+
+/*===============Footer Area area Css End=================*/
+
+
+/*===============About Page area Css Start=================*/
+
+
+section.breadcrumbs-area {
+    background-image: url(../images/breadcrumb-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 0px 0 380px;
+    position: relative;
+}
+
+section.breadcrumbs-area.services-breadcrumbs {
+    background-image: url(../images/breadcrumbs-img2.jpg);
+}
+
+.breadcrumb-details {
+    position: absolute;
+    left: 45px;
+    width: 50%;
+    top: 40%;
+    transform: translateY(-40px);
+}
+
+nav ol.breadcrumb {
+    justify-content: center;
+}
+
+ol.breadcrumb li.breadcrumb-item {
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #000 !important;
+}
+
+section.about-page-company-area {
+    background-image: url(../images/about-img/bg-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+}
+
+.right-img img {
+    max-width: 360px;
+}
+
+
+.right-img {
+    text-align: center;
+}
+
+.left-detail h3 {
+    color: #F38726;
+    font-family: 'Diphylleia', serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.left-detail p {
+    color: #616161;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.left-detail h4 {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+section.goals-area {
+    padding: 80px 0 50px;
+}
+
+
+.goal-img {
+    text-align: center;
+}
+
+.goal-img img {
+    max-width: 300px;
+}
+
+.goal-detail h3 {
+    color: #F38726;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.goal-detail h4 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.goal-detail p {
+    color: #616161;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+section.book-area {
+    background: #F38726;
+    padding: 62px 0;
+}
+
+h3.book-area-title {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+h3.book-area-heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+section.book-area a.banner-btn {
+    border-radius: 10px;
+    border: 4px solid #FFF;
+}
+
+
+
+
+
+
+
+/*===============About Page area Css End=================*/
+
+
+/*===============Contact Page area Css Start=================*/
+
+section.contact-page {
+    background: #001A2D;
+    padding: 50px 0;
+}
+
+.div.tf_contact_area {
+    padding: 20px;
+    position: relative;
+}
+
+.tf_contact_icon img {
+    max-width: 100px;
+}
+
+.tf_contact_icon {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: url(../images/icon/contact-icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    color: #fff;
+    margin: 0 auto 10px;
+}
+
+.tf_contact_details {
+    text-align: center;
+}
+
+.tf_contact_details h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tf_contact_details p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+}
+
+section.tf-contact-form {
+    padding: 60px 0;
+}
+
+.tf-contact-form-area {
+    background: rgb(240, 240, 240);
+    padding: 30px 40px;
+    border-radius: 5px;
+}
+
+.tf-contact-form-area input.form-control {
+    width: 100%;
+}
+
+.tf-contact-form-area .select-services select.form-select {
+    width: 100%;
+}
+
+.tf-contact-form-area textarea.form-control {
+    width: 100%;
+}
+
+.tf-contact-form-area h3 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+}
+
+section.tf-contact-map {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/*===============Contact Page area Css End=================*/
+
+
+/*===============Gallery area Css Start=================*/
+
+
+section.gallery-page-img-area #myImg {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 360px;
+    height: 100%;
+    margin: 5px 5px 20px 5px;
+}
+
+#myModal {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000077;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.modal-content {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 130px;
+    z-index: 500;
+    left: 30%;
+    border-radius: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+/*===============Gallery area Css End=================*/
+
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f38726;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .5s;
+}
+
+/*========================Services Pages Css start========================*/
+
+.section-space {
+    padding: 40px 0 !important;
+}
+
+
+.service-sidebar .widget {
+    background: #fff;
+    box-shadow: 0px 0px 15px #0000001c;
+    padding: 20px;
+}
+
+.service-sidebar .widget-title {
+    position: relative;
+    font-size: 18px;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    margin-top: 0;
+    color: #000;
+    font-weight: 700;
+}
+
+.service-sidebar .widget-title::after {
+    content: '';
+    width: 35px;
+    height: 3px;
+    border-radius: 10px;
+    background: #F38726;
+    position: absolute;
+    top: 10px;
+    margin-left: 5px;
+}
+
+.service-sidebar .widget ul li {
+    line-height: 30px;
+}
+
+.service-sidebar .widget a {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.6px;
+    transition: .5s;
+}
+
+.service-sidebar .widget a:hover {
+    color: #F38726;
+}
+
+.service-sidebar .widget ul li a:before {
+    content: "\f0da";
+    font-family: 'FontAwesome';
+    margin-right: 12px;
+    float: right;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.contact-form-area.service {
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+}
+
+.contact-form-area .form-group {
+    position: relative;
+}
+
+.contact-form-area .form-group {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.contact-form-area .form-group .icon {
+    position: absolute;
+    right: 15px;
+    z-index: 33;
+    color: #F38726;
+    top: 12px;
+}
+
+.contact-form-area .form-group input {
+    height: 50px;
+    border: 1px solid rgba(204, 204, 204, 0.58);
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+    padding: 0px 40px 0 15px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.contact-form-area.service .form-group textarea {
+    height: 120px;
+}
+
+.contact-form-area .form-group.button {
+    text-align: center;
+    margin: 20px 0 0 !important;
+}
+
+.contact-form-area .bizwheel-btn.theme-2 {
+    padding: 15px 32px;
+}
+
+.bizwheel-btn.theme-2 {
+    background: #F38726;
+    color: #fff;
+    padding: 15px 30px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact-form-area .form-group textarea {
+    height: 170px;
+    border: 1px solid #dfdfdf;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    padding: 15px;
+    resize: none;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 0px;
+    padding-right: 40px;
+    font-weight: normal;
+}
+
+.widget {
+    margin: 0 0 1.5em;
+}
+
+ul#menu-service-menu {
+    padding: 0;
+}
+
+.service-sidebar .widget li {
+    margin: 0 0 8px;
+}
+
+.service-content h2 {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+}
+
+.service-img {
+    margin-bottom: 30px;
+}
+.service-img img {
+    height: 350px;
+    object-fit: cover;
+}
+
+
+
+
+/*========================Services Pages Css end========================*/
+
+
+
+#one{
+    width: 100%;
+    display: block;
+    font-family: 'Diphylleia', serif;
+}
+#two{
+    width: 100%;
+    display: block;
+    font-family: 'Diphylleia', serif;
+}
+#three{
+    width: 100%;
+    display: block;
+    font-family: 'Diphylleia', serif;
+}
+#four{
+    width: 100%;
+    display: block;
+    font-family: 'Diphylleia', serif;
+}
+#five{
+    width: 100%;
+    display: block;
+    font-family: 'Diphylleia', serif;
+}
+#six{
+    width: 100%;
+    display: block;
+    font-family: 'Diphylleia', serif;
+}
+
+
+.page-logo-area {
+    position: relative;
+}
+
+.page-logo-area .shine {
+    position: absolute;
+    top: -17px;
+    left: 24px;
+    pointer-events: none;
+}
+
+.shine {
+    display: block;
+    position: absolute;
+    background-image: url(../images/glitter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+    z-index: 2;
+    opacity: 0;
+    width: 70px;
+    height: 70px;
+    -webkit-animation: glitter 6s linear 0s infinite normal;
+    animation: glitter 6s linear 0s infinite normal;
+    text-indent: -9999px;
+}
+
+
+@keyframes glitter {
+    0% {
+        -webkit-transform: scale(0.3) rotate(0deg);
+        transform: scale(0.3) rotate(0deg);
+        opacity: 0;
+    }
+    25% {
+        -webkit-transform: scale(1) rotate(360deg);
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: scale(0.3) rotate(720deg);
+        transform: scale(0.3) rotate(720deg);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(0.3) rotate(0deg);
+        transform: scale(0.3) rotate(0deg);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
